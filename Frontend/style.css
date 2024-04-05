@@ -1,0 +1,21 @@
+body{
+    background-color: #131722;
+    color: #fff;
+    font-family: 'Montserrat Alternates' , sans-serif;
+}
+input{
+    background-color: transparent !important;
+    color: #fff !important;
+}
+input::placeholder{ 
+    color: #fff !important;
+}
+li{
+    list-style: none;
+}
+li:nth-child(odd){
+    background-color: #a8a8a83d;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
